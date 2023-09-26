@@ -1,0 +1,397 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.6f1 (10bfa6201ced) revision 1097638'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2022.2.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+D:/31263Assessment3-Penghuan/Assessment3
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+62419
+Successfully changed project path to: D:/31263Assessment3-Penghuan/Assessment3
+D:/31263Assessment3-Penghuan/Assessment3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [110960] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 3065757659 [EditorId] 3065757659 [Version] 1048832 [Id] WindowsEditor(7,ivan0701) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [110960] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 3065757659 [EditorId] 3065757659 [Version] 1048832 [Id] WindowsEditor(7,ivan0701) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 7.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.6f1 (10bfa6201ced)
+[Subsystems] Discovering subsystems at path D:/unity/2022.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/31263Assessment3-Penghuan/Assessment3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   31.0.15.1700
+Initialize mono
+Mono path[0] = 'D:/unity/2022.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2022.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2022.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2022.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002643 seconds.
+- Loaded All Assemblies, in  0.249 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.198 seconds
+Domain Reload Profiling:
+	ReloadAssembly (158ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (88ms)
+				TypeCache.Initialize (88ms)
+					TypeCache.ScanAssembly (87ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (154ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\31263Assessment3-Penghuan\Assessment3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\31263Assessment3-Penghuan\Assessment3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.666 seconds
+Refreshing native plugins compatible for Editor in 2.31 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.434 seconds
+Domain Reload Profiling:
+	ReloadAssembly (152ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		LoadAllAssembliesAndSetupDomain (514ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (368ms)
+				TypeCache.Initialize (184ms)
+					TypeCache.ScanAssembly (181ms)
+				ResolveRequiredComponents (7ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3983 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (70.3 KB). Loaded Objects now: 4443.
+Memory consumption went from 0.60 GB to 0.60 GB.
+Total: 3.171000 ms (FindLiveObjects: 0.260400 ms CreateObjectMapping: 0.136800 ms MarkObjects: 2.531100 ms  DeleteObjects: 0.241200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 138161.640647 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-34.wav
+  artifactKey: Guid(881e3f52c86c94f26a60718d35627cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-34.wav using Guid(881e3f52c86c94f26a60718d35627cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd43d9786fbce98bc3357d8b3a365a3e') in 0.089387 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.163943 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-42.wav
+  artifactKey: Guid(38a17a92b9d9748c6a1e67972041b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-42.wav using Guid(38a17a92b9d9748c6a1e67972041b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd1d5e14e412e5261fa6945a8f7f547') in 0.015736 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002299 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-46.wav
+  artifactKey: Guid(fe0b1f9aeb45b41b089175aeeabd5d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-46.wav using Guid(fe0b1f9aeb45b41b089175aeeabd5d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dadb95a2a705bda3f6e7cba5c570e28') in 0.016450 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.393886 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-50.wav
+  artifactKey: Guid(79e6baad2fd414b82a6d49ce1568d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-50.wav using Guid(79e6baad2fd414b82a6d49ce1568d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d43fa752aaa8703581b3f0a1a8c7b9') in 0.022326 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.879504 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/ramdomize
+  artifactKey: Guid(dae95c8106e854648b7c8214aeea7107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/ramdomize using Guid(dae95c8106e854648b7c8214aeea7107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db41b39380a32479c720d122e9ebb392') in 0.000397 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.065425 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/ramdomize/missil_1.wav
+  artifactKey: Guid(1cc961a5774894de3957d7570f35670a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/ramdomize/missil_1.wav using Guid(1cc961a5774894de3957d7570f35670a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e13e1ce945da837027698f0fef5a58') in 0.018912 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002856 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/ramdomize/randomize_4.wav
+  artifactKey: Guid(894f272ebb11242af94879907071b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/ramdomize/randomize_4.wav using Guid(894f272ebb11242af94879907071b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760f14ab085888843eeecbab35896e85') in 0.016280 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007926 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/ramdomize/randomize_8.wav
+  artifactKey: Guid(e38806dc906e44a8a919fad5b474aae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/ramdomize/randomize_8.wav using Guid(e38806dc906e44a8a919fad5b474aae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a793e92a76e59d5267d724cb6acfcc') in 0.018832 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003706 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/ramdomize/randomize_13.wav
+  artifactKey: Guid(4c252763483a141c2b8f44d80134f8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/ramdomize/randomize_13.wav using Guid(4c252763483a141c2b8f44d80134f8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba4c75dcfd52c84fe539c9f69c9d4ed') in 0.014675 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003818 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/ramdomize/randomize_17.wav
+  artifactKey: Guid(d2ef94fd9745a4d76b86a074f11cd1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/ramdomize/randomize_17.wav using Guid(d2ef94fd9745a4d76b86a074f11cd1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1520be5e126049f0c73956edcd6d35') in 0.012966 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.631073 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_1.wav
+  artifactKey: Guid(d07da7a1e41ad45c79bcaa11ca8109ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_1.wav using Guid(d07da7a1e41ad45c79bcaa11ca8109ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac632e6e7580b2e2d64aa3ca942a9a01') in 0.015587 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002663 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_5.wav
+  artifactKey: Guid(91daf65c6f4b34601987b01c16ee394c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_5.wav using Guid(91daf65c6f4b34601987b01c16ee394c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3bedcf354080e5f60119828a1853fd') in 0.013968 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002254 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_8.wav
+  artifactKey: Guid(395d4038a87dd48a8871eeae233d3233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_8.wav using Guid(395d4038a87dd48a8871eeae233d3233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a598a95431a4ed7c83665114e87818f') in 0.015572 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006623 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_12.wav
+  artifactKey: Guid(778e2a33779af46808f9d5d5026ccb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_12.wav using Guid(778e2a33779af46808f9d5d5026ccb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60fec17cb61829788e6f9191d5b5214') in 0.018865 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003750 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_16.wav
+  artifactKey: Guid(2a937a8e8cf8242f08774af3ca101d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_16.wav using Guid(2a937a8e8cf8242f08774af3ca101d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfd8212fa90bbd48e4329fa312abffd') in 0.015114 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005199 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_20.wav
+  artifactKey: Guid(c8a8adf821ff2474b843341253b01896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_20.wav using Guid(c8a8adf821ff2474b843341253b01896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f825b321d1273c1fa5b73419de9b2a8') in 0.018911 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003177 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_24.wav
+  artifactKey: Guid(09744407e0d7d4a409cbb420fd00f729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_24.wav using Guid(09744407e0d7d4a409cbb420fd00f729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33ab03623776fa20d0e11ede2edfa45') in 0.015727 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002896 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_28.wav
+  artifactKey: Guid(db02785c36b284c7fadc46ca1e0a7a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_28.wav using Guid(db02785c36b284c7fadc46ca1e0a7a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939f14133fc0c8b8e5051a27b5e1805a') in 0.015092 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004089 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_32.wav
+  artifactKey: Guid(0875e6d21e52040f1bfda4eedd43a9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/powerup/powerup_32.wav using Guid(0875e6d21e52040f1bfda4eedd43a9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8846932a8790ba1a26a0c3ae695561fa') in 0.014603 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.183945 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO
+  artifactKey: Guid(3f1db05c01b85264f8b5575d5886f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO using Guid(3f1db05c01b85264f8b5575d5886f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ef3d9da5414171f11b0bdd75c3cd75') in 0.000456 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.008480 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Weapons Demo
+  artifactKey: Guid(5608d2de86036224ca0fcc6ba3f3c687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Weapons Demo using Guid(5608d2de86036224ca0fcc6ba3f3c687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303254fa4f8b32ead1546bc9b65b6b8b') in 0.000509 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.773113 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Zombie Voices Demo
+  artifactKey: Guid(cde05a7a9a898f2498fea37d5ff8e541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Zombie Voices Demo using Guid(cde05a7a9a898f2498fea37d5ff8e541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20381094890e2dff37163fe9f96cd75f') in 0.000324 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.190065 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Zombie Voices Demo/Child_zombie_hurt_2.wav
+  artifactKey: Guid(e5fa9e39c9bdd4ea2af91265d1d1e13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Zombie Voices Demo/Child_zombie_hurt_2.wav using Guid(e5fa9e39c9bdd4ea2af91265d1d1e13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc1b0afb6305149b8838014b8fd918e') in 0.012878 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001795 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Zombie Voices Demo/zombie_attack_3.wav
+  artifactKey: Guid(dbc6b32847c5d4489926d8e99426ef48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Zombie Voices Demo/zombie_attack_3.wav using Guid(dbc6b32847c5d4489926d8e99426ef48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2095d733e00b4e7cd644ef8ea47b87') in 0.017088 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.145116 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Voices Expressions Demo/Ah_ah_1.wav
+  artifactKey: Guid(6dad752a6d8d5456e9eba4485da8dfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Voices Expressions Demo/Ah_ah_1.wav using Guid(6dad752a6d8d5456e9eba4485da8dfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620b433d9c2d9e3606f5cb7a62fe3aba') in 0.015246 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003210 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Voices Expressions Demo/DoYouNeedHelp_2.wav
+  artifactKey: Guid(8e51318e3ff564e3f96bf7a984072f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Voices Expressions Demo/DoYouNeedHelp_2.wav using Guid(8e51318e3ff564e3f96bf7a984072f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67221690d8305e96dced0b138b7c694') in 0.013157 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003518 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Voices Expressions Demo/GreatJob.wav
+  artifactKey: Guid(211a364bc2c894275ab933b3722251e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Voices Expressions Demo/GreatJob.wav using Guid(211a364bc2c894275ab933b3722251e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b381f65e24bc0399228731df9d5fbbf') in 0.016105 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003342 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Voices Expressions Demo/TryAgain_1.wav
+  artifactKey: Guid(97a9104e845c34a3aa25c5b1b44278fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Voices Expressions Demo/TryAgain_1.wav using Guid(97a9104e845c34a3aa25c5b1b44278fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74eb2286ff92902d10cbde053e018bee') in 0.016145 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
